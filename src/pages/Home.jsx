@@ -99,20 +99,6 @@ function Home({ setActiveSection }) {
 
   return (
     <>
-      {/* Custom Cursor */}
-      <motion.div
-        className="fixed top-0 left-0 w-6 h-6 bg-amber-600 rounded-full pointer-events-none z-50 mix-blend-difference"
-        animate={{
-          x: mousePosition.x - 12,
-          y: mousePosition.y - 12,
-          scale: isHovering ? 1.5 : 1
-        }}
-        transition={{
-          type: "spring",
-          stiffness: 500,
-          damping: 28
-        }}
-      />
 
       {/* Hero Section */}
       <section id="home" className="pt-20 min-h-screen flex items-center relative overflow-hidden">
