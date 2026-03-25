@@ -52,6 +52,12 @@ const services = [
     title: "Housekeeping",
     description: "Professional housekeeping services maintaining the highest standards of cleanliness and organization.",
     features: ["Deep Cleaning", "Regular Maintenance", "Professional Staff", "Quality Assurance"]
+  },
+  {
+    icon: "UtensilsCrossed",
+    title: "Catering",
+    description: "Premium catering services delivering exceptional culinary experiences for every occasion, from intimate gatherings to large-scale events.",
+    features: ["Fusion Food", "Stavic Food", "Event Catering", "Live Cooking", "Kitchen Take Overs"]
   }
 ]
 
